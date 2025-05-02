@@ -6,6 +6,8 @@ requirements_file: "requirements.txt"
 
 port: 5000
 
+network_name: "nginx-proxy-net"
+
 start_command:
   - "gunicorn"
   - "main:app"
