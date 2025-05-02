@@ -1,0 +1,15 @@
+app_name: "hello-flask-app"
+
+python_version: "3.10"
+
+requirements_file: "requirements.txt"
+
+port: 5000
+
+start_command:
+  - "python3"
+  - "app.py"
+
+volumes: []
+
+environment_variables: []

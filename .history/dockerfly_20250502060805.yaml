@@ -1,0 +1,17 @@
+app_name: "hello-flask-app"
+
+python_version: "3.10"
+
+requirements_file: "requirements.txt"
+
+port: 5000
+
+start_command:
+  - "gunicorn"
+  - "main:app"
+  - "--bind"
+  - "0.0.0.0:5000"
+
+volumes: []
+
+environment_variables: []
